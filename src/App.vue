@@ -333,6 +333,8 @@ body {
   margin: 0 0 1.5vmax;
 }
 .content {
+  display: flex;
+  width: 100%;
   font-family: "Alibaba-puhui-regular";
   font-size: 1vmax;
   color: #363636;
@@ -341,17 +343,20 @@ body {
 }
 .codeSpace {
   display: flex;
+  width: 100%;
   /* justify-content: center; */
   overflow-x: scroll;
 }
 pre {
   display: flex;
+  width: 100%;
   box-sizing: border-box;
   background-color: #d6d6d6;
-  width: auto;
   padding: 1vmax 0;
 }
 code {
+  display: flex;
+  width: 100%;
   font-family: NSimSun;
   font-size: 0.8vmax;
   color: #363636;
