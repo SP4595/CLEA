@@ -1,52 +1,62 @@
 <template>
-  <div class="sign contentContainer">
+  <!-- <div class="sign contentContainer">
     <div class="">This page is working in progress.</div>
     <div class="">Please wait for a while.</div>
     <div class="inProgress"></div>
-  </div>
+  </div> -->
   <div class="articleTitleContainer contentContainer">
     <div class="articleTitle">
-      <div>Title</div>
+      <span class="colorStress">CLEA:</span>
     </div>
     <div class="articleTitle subTitle">
-      <div>Subtitle</div>
+      <span class="colorStress">C</span>losed-<span class="colorStress">L</span
+      >oop <span class="colorStress">E</span>mbodied
+      <span class="colorStress">A</span>gent for Enhancing Task Execution in
+      Dynamic Environments
     </div>
 
     <div class="arthorNameLine">
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author01</span
-        ><span class="sup"> *, 1</span><span class="arthorName">, </span>
+        <span class="arthorName">Mingcong Lei</span><span class="sup">*</span
+        ><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author02</span>
-        <span class="sup"> *, 1, 2</span><span class="arthorName">, </span>
+        <span class="arthorName">Ge Wang</span>
+        <span class="sup">*</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author03"</span>
-        <span class="sup">*, 1, 2, 3</span><span class="arthorName">, </span>
+        <span class="arthorName">Yiming Zhao, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName"> authorList.author04</span
-        ><span class="sup"> 2, 3</span><span class="arthorName">, </span>
+        <span class="arthorName">Zhixin Mai, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author05</span
-        ><span class="sup"> 1, 2</span><span class="arthorName">, </span>
+        <span class="arthorName">Qing Zhao, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author06</span
-        ><span class="sup"> 3</span><span class="arthorName">, </span>
+        <span class="arthorName">Shuguang Cui, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">authorList.author07</span
-        ><span class="sup"> 1, 3, 4</span><span class="arthorName">. </span>
+        <span class="arthorName">Yatong Han</span
+        ><span class="sup">&dagger;</span><span class="arthorName">, </span>
+      </div>
+      <div class="arthorNameContainer">
+        <span class="arthorName">and Jinke Ren</span
+        ><span class="sup">&dagger;</span>
       </div>
     </div>
     <div class="expression">
-      <span class="sup"> * </span
-      ><span class="expressionText">Equal Contribution</span>
+      <div class="expressionItem">
+        <span class="sup"> * </span
+        ><span class="expressionText">Equal Contribution, </span>
+      </div>
+      <div class="expressionItem">
+        <span class="sup"> &dagger; </span
+        ><span class="expressionText">Corresponding Author</span>
+      </div>
     </div>
-    <div class="university">
+
+    <!-- <div class="university">
       <div class="universityContainer">
         <span class="sup"> 1 </span
         ><span class="universityName">universityName.universityName1, </span>
@@ -67,8 +77,8 @@
         <span class="sup"> 5 </span
         ><span class="universityName">universityName.universityName5, </span>
       </div>
-    </div>
-    <div class="buttonGroup">
+    </div> -->
+    <!-- <div class="buttonGroup">
       <button class="button">
         <div class="pdfIcon"></div>
         buttonGroup.pdfButton
@@ -81,9 +91,9 @@
         <div class="huggingFaceIcon"></div>
         buttonGroup.huggingFaceButton
       </button>
-    </div>
+    </div> -->
   </div>
-  <div class="videoDisplayContainer contentContainer">
+  <!-- <div class="videoDisplayContainer contentContainer">
     <video autoplay muted playsinline loop disable-picture-in-picture="true">
       <source src="./assets/mp4/test.mp4" type="video/mp4" />
     </video>
@@ -95,8 +105,8 @@
     <video autoplay muted playsinline loop disable-picture-in-picture="true">
       <source src="./assets/mp4/test2.mp4" type="video/mp4" />
     </video>
-  </div>
-  <div class="articleMainBodyContainer contentContainer">
+  </div> -->
+  <!-- <div class="articleMainBodyContainer contentContainer">
     <div class="contentMainTitle">BlockTitle</div>
     <div class="contentSubTitle">BlockSubtitle</div>
     <div class="content">
@@ -108,7 +118,7 @@
     </div>
     <div class="codeSpace">
       <pre>
-        <!-- prettier-ignore -->
+        
         <code>
 @article{ xxxxxxxxxxx, 
   title={titleCodeMode},
@@ -118,6 +128,9 @@
         </code>
       </pre>
     </div>
+  </div> -->
+  <div class="forecast contentContainer">
+    The body of paper is comming soon...
   </div>
 </template>
 
@@ -176,11 +189,11 @@ body {
   background-color: #ffffff;
 }
 
-.sign {
+.forecast {
   display: flex;
   height: 50vmax;
   font-family: "Alibaba-puhui-heavy";
-  font-size: 5vmax;
+  font-size: 3vmax;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
@@ -198,24 +211,33 @@ body {
   padding-top: 5vmax;
 }
 .articleTitle {
-  display: flex;
+  /* display: flex; */
+  /* flex-direction: column; */
   box-sizing: border-box;
   font-family: "Alibaba-puhui-bold";
   font-size: 5vmax;
   color: #363636;
   justify-content: center;
-  line-height: 1;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 15%;
 }
 .subTitle {
-  font-size: 4.5vmax;
+  font-size: 3vmax;
 }
+
+.colorStress {
+  display: inline;
+  color: #209cee;
+}
+
 .arthorNameLine {
   display: flex;
   width: 100%;
-  font-family: "Alibaba-puhui-regular";
+  font-family: "Alibaba-puhui-medium";
   box-sizing: border-box;
   flex-wrap: wrap;
-  padding: 0 20%;
+  padding: 0 25%;
   margin: 2.5vmax 0 0;
   line-height: 1.5;
   font-size: 1.5vmax;
@@ -225,6 +247,7 @@ body {
   display: flex;
   box-sizing: border-box;
   flex-shrink: 0;
+  margin-right: 0.5vmax;
 }
 .arthorName {
   color: #209cee;
@@ -233,12 +256,18 @@ body {
   display: flex;
   vertical-align: top;
   flex-shrink: 0;
-  font-size: 50%;
+  font-size: 75%;
 }
 .expression {
   display: flex;
   margin: 1vmax 0 0;
   justify-content: center;
+}
+.expressionItem {
+  display: flex;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0 0.25vmax;
 }
 .expressionText {
   font-size: 1vmax;
