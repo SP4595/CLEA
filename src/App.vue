@@ -17,32 +17,45 @@
 
     <div class="arthorNameLine">
       <div class="arthorNameContainer">
-        <span class="arthorName">Mingcong Lei</span><span class="sup">*</span
-        ><span class="arthorName">, </span>
+        <span class="arthorName">Mingcong Lei</span
+        ><span class="sup">*, 1, 2, 5</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
         <span class="arthorName">Ge Wang</span>
-        <span class="sup">*</span><span class="arthorName">, </span>
+        <span class="sup">*, 1, 2, 5</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">Yiming Zhao, </span>
+        <span class="arthorName">Yiming Zhao</span>
+        <span class="sup">1, 3, 5</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">Zhixin Mai, </span>
+        <span class="arthorName">Zhixin Mai</span>
+        <span class="sup">1, 2, 5</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">Qing Zhao, </span>
+        <span class="arthorName">Qing Zhao</span>
+        <span class="sup">1</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
-        <span class="arthorName">Shuguang Cui, </span>
+        <span class="arthorName">Yao Guo</span>
+        <span class="sup">4</span><span class="arthorName">, </span>
+      </div>
+      <div class="arthorNameContainer">
+        <span class="arthorName">Zhen Li</span>
+        <span class="sup">1, 2</span><span class="arthorName">, </span>
+      </div>
+      <div class="arthorNameContainer">
+        <span class="arthorName">Shuguang Cui</span>
+        <span class="sup">1, 2</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
         <span class="arthorName">Yatong Han</span
-        ><span class="sup">&dagger;</span><span class="arthorName">, </span>
+        ><span class="sup">&dagger;, 1, 2, 5</span
+        ><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
         <span class="arthorName">and Jinke Ren</span
-        ><span class="sup">&dagger;</span>
+        ><span class="sup">&dagger;, 1 ,2</span>
       </div>
     </div>
     <div class="expression">
@@ -56,67 +69,91 @@
       </div>
     </div>
 
-    <!-- <div class="university">
+    <div class="university">
       <div class="universityContainer">
         <span class="sup"> 1 </span
-        ><span class="universityName">universityName.universityName1, </span>
+        ><span class="universityName"
+          >Future Network of Intelligence Institute, Shenzhen,
+        </span>
       </div>
       <div class="universityContainer">
         <span class="sup"> 2 </span
-        ><span class="universityName">universityName.universityName2, </span>
+        ><span class="universityName"
+          >The Chinese University of Hong Kong, Shenzhen,
+        </span>
       </div>
       <div class="universityContainer">
         <span class="sup"> 3 </span
-        ><span class="universityName">universityName.universityName3, </span>
+        ><span class="universityName">Harbin Engineering University, </span>
       </div>
       <div class="universityContainer">
         <span class="sup"> 4 </span
-        ><span class="universityName">universityName.universityName4, </span>
+        ><span class="universityName">Shanghai Jiao Tong University, </span>
       </div>
       <div class="universityContainer">
         <span class="sup"> 5 </span
-        ><span class="universityName">universityName.universityName5, </span>
+        ><span class="universityName"
+          >Infused Synapse AI, www.isai.net.cn
+        </span>
       </div>
-    </div> -->
-    <!-- <div class="buttonGroup">
-      <button class="button">
+    </div>
+    <div class="buttonGroup">
+      <button
+        class="button"
+        onclick="window.open('https://arxiv.org/abs/2503.00729')"
+        type="button"
+      >
         <div class="pdfIcon"></div>
-        buttonGroup.pdfButton
+        Paper
       </button>
-      <button class="button">
+      <button
+        class="button"
+        onclick="window.open('https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent')"
+        type="button"
+      >
         <div class="gitHubIcon"></div>
-        buttonGroup.gitHubButton
+        Code
       </button>
-      <button class="button">
+      <!-- <button class="button">
         <div class="huggingFaceIcon"></div>
         buttonGroup.huggingFaceButton
-      </button>
-    </div> -->
-  </div>
-  <!-- <div class="videoDisplayContainer contentContainer">
-    <video autoplay muted playsinline loop disable-picture-in-picture="true">
-      <source src="./assets/mp4/test.mp4" type="video/mp4" />
-    </video>
-
-    <video autoplay muted playsinline loop disable-picture-in-picture="true">
-      <source src="./assets/mp4/test1.mp4" type="video/mp4" />
-    </video>
-
-    <video autoplay muted playsinline loop disable-picture-in-picture="true">
-      <source src="./assets/mp4/test2.mp4" type="video/mp4" />
-    </video>
-  </div> -->
-  <!-- <div class="articleMainBodyContainer contentContainer">
-    <div class="contentMainTitle">BlockTitle</div>
-    <div class="contentSubTitle">BlockSubtitle</div>
-    <div class="content">
-      We xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:
-      (1) xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, (2)
-      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-      (3)
-      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      </button> -->
     </div>
-    <div class="codeSpace">
+  </div>
+  <div class="videoDisplayContainer contentContainer coverVideo">
+    <video muted playsinline loop controls disable-picture-in-picture="true">
+      <source src="./assets/mp4/cover_demo.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="articleMainBodyContainer contentContainer">
+    <div class="contentMainTitle">Abstract</div>
+    <div class="content">
+      Large Language Models (LLMs) exhibit remarkable capabilities in the
+      hierarchical decomposition of complex tasks through semantic reasoning.
+      However, their application in embodied systems faces challenges in
+      ensuring reliable execution of subtask sequences and achieving one-shot
+      success in long-term task completion. To address these limitations in
+      dynamic environments, we propose Closed-Loop Embodied Agent (CLEA)—a novel
+      architecture incorporating four specialized open-source LLMs with
+      functional decoupling for closed-loop task management. The framework
+      features two core innovations: (1) Interactive task planner that
+      dynamically generates executable subtasks based on the environmental
+      memory, and (2) Multimodal execution critic employing an evaluation
+      framework to conduct a probabilistic assessment of action feasibility,
+      triggering hierarchical re-planning mechanisms when environmental
+      perturbations exceed preset thresholds. To validate CLEA’s effectiveness,
+      we conduct experiments in a real environment with manipulable objects,
+      using two heterogeneous robots for object search, manipulation, and
+      search-manipulation integration tasks. Across 12 task trials, CLEA
+      outperforms the baseline model, achieving a 67.3% improvement in success
+      rate and a 52.8% increase in task completion rate. These results
+      demonstrate that CLEA significantly enhances the robustness of task
+      planning and execution in dynamic environments. Our code is available at
+      <a href="https://sp4595.github.io/CLEA/">https://sp4595.github.io/CLEA/</a
+      >.
+    </div>
+
+    <!-- <div class="codeSpace">
       <pre>
         
         <code>
@@ -127,10 +164,41 @@
 }
         </code>
       </pre>
+    </div> -->
+  </div>
+  <div class="articleMainBodyContainer contentContainer">
+    <div class="contentImg contentImg1">
+      <img src="./assets/pic/begining.png" alt="image" />
+      <div class="introText">
+        Fig. 1. <span class="bold">Task execution processes of CLEA.</span> (1)
+        Search task: CLEA facilitates adaptive strategy adjustments in partially
+        observable environments. By analyzing visual inputs from robot 2, which
+        remains stationary on the table, CLEA directs robot 1, the mobile unit,
+        to explore alternative locations—such as the interior of the
+        refrigerator—in search of water. (2) Manipulation task: CLEA evaluates
+        the feasibility of each action and dynamically refines its strategy.
+        Upon opening the oven, it determines that placing the apple directly
+        inside is infeasible. Consequently, CLEA adjusts the next step to a more
+        appropriate action: pulling out the grill to create sufficient space,
+        thereby successfully completing the manipulation task.
+      </div>
     </div>
-  </div> -->
+  </div>
+  <div class="articleMainBodyContainer contentContainer">
+    <div class="contentImg contentImg2">
+      <img src="./assets/pic/AC+.jpg" alt="image" />
+      <div class="introText">
+        Fig. 2. <span class="bold">Overview of CLEA.</span> The observer (VLM)
+        provides environmental data, which the summarizer (LLM) processes into
+        memory. The planner (LLM) generates an initial action sequence based on
+        the robot’s skill pool and memory, while the critic (VLM) evaluates
+        action feasibility and offers re-plan recommendations in response to
+        environmental dynamics.
+      </div>
+    </div>
+  </div>
   <div class="forecast contentContainer">
-    The body of paper is comming soon...
+    The rest of paper is comming soon...
   </div>
 </template>
 
@@ -142,8 +210,8 @@ body {
   font-family: "Alibaba-puhui-regular";
 }
 * {
-  word-break: normal;
-  word-wrap: break-word;
+  /* word-break: normal;
+  word-wrap: break-word; */
 }
 /* font */
 @font-face {
@@ -170,6 +238,20 @@ body {
   font-family: "Alibaba-puhui-bold";
   font-display: swap;
   src: url("@/assets/font/Alibaba-PuHuiTi-Bold.ttf") format("truetype");
+}
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.bold {
+  font-family: "Alibaba-puhui-bold";
 }
 
 .contentContainer {
@@ -237,7 +319,7 @@ body {
   font-family: "Alibaba-puhui-medium";
   box-sizing: border-box;
   flex-wrap: wrap;
-  padding: 0 25%;
+  padding: 0 20%;
   margin: 2.5vmax 0 0;
   line-height: 1.5;
   font-size: 1.5vmax;
@@ -256,7 +338,9 @@ body {
   display: flex;
   vertical-align: top;
   flex-shrink: 0;
-  font-size: 75%;
+  font-size: 60%;
+  margin-right: 0.25vmax;
+  font-family: "Alibaba-puhui-regular";
 }
 .expression {
   display: flex;
@@ -291,6 +375,10 @@ body {
   flex-shrink: 0;
   margin-right: 1vmax;
 }
+.universityName {
+  font-family: "Alibaba-puhui-medium";
+  color: #535353;
+}
 .buttonGroup {
   display: flex;
   justify-content: center;
@@ -308,13 +396,17 @@ body {
   padding: 1.5vmax;
   margin: 0.5vmax;
   font-size: 1vmax;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #474747;
 }
 .pdfIcon {
   width: 1.5vmax;
   height: 1.5vmax;
   background-image: url("@/assets/icon/component/pdf.png");
   background-size: contain;
-  margin-right: 0.5vmax;
+  margin-right: 1vmax;
 }
 .gitHubIcon {
   width: 1.5vmax;
@@ -330,15 +422,15 @@ body {
   background-size: contain;
   margin-right: 0.5vmax;
 }
-.videoDisplayContainer {
+.videoDisplayContainer.coverVideo {
   display: flex;
   width: 100%;
   box-sizing: border-box;
   flex-direction: row;
   justify-content: center;
 }
-.videoDisplayContainer video {
-  height: 15vmax;
+.videoDisplayContainer.coverVideo video {
+  height: 30vmax;
   aspect-ratio: 16/9;
   margin: 0 0.5vmax;
 }
@@ -347,7 +439,7 @@ body {
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  padding: 5vmax 25%;
+  padding: 4vmax 25%;
 }
 .contentMainTitle {
   font-family: "Alibaba-puhui-bold";
@@ -362,14 +454,60 @@ body {
   margin: 0 0 1.5vmax;
 }
 .content {
-  display: flex;
+  /* display: flex; */
   width: 100%;
   font-family: "Alibaba-puhui-regular";
-  font-size: 1vmax;
+  font-size: 0.9vmax;
   color: #363636;
   line-height: 1.5;
   margin: 0 0 1vmax;
+  /* word-wrap: normal;
+  word-break: normal; */
+  text-align: justify;
 }
+.content a {
+  color: #209cee;
+}
+.content a:hover {
+  color: #1978b8;
+}
+
+.contentImg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.contentImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 1.5vmax;
+}
+.contentImg .introText {
+  font-family: "Alibaba-puhui-regular";
+  font-size: 0.85vmax;
+  color: #363636;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 7.5%;
+  margin-bottom: 1.5vmax;
+}
+
+.contentImg2 {
+  flex-direction: row;
+}
+.contentImg2 img {
+  width: 60%;
+}
+
+/* .contentImg2 .introText {
+  text-align: justify;
+  padding: 0 4vmax;
+} */
+
 .codeSpace {
   display: flex;
   width: 100%;
