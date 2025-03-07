@@ -50,12 +50,11 @@
       </div>
       <div class="arthorNameContainer">
         <span class="arthorName">Yatong Han</span
-        ><span class="sup">&dagger;, 1, 2, 5</span
-        ><span class="arthorName">, </span>
+        ><span class="sup">†, 1, 2, 5</span><span class="arthorName">, </span>
       </div>
       <div class="arthorNameContainer">
         <span class="arthorName">and Jinke Ren</span
-        ><span class="sup">&dagger;, 1 ,2</span>
+        ><span class="sup">†, 1 ,2</span>
       </div>
     </div>
     <div class="expression">
@@ -64,7 +63,7 @@
         ><span class="expressionText">Equal Contribution, </span>
       </div>
       <div class="expressionItem">
-        <span class="sup"> &dagger; </span
+        <span class="sup"> † </span
         ><span class="expressionText">Corresponding Author</span>
       </div>
     </div>
@@ -103,8 +102,8 @@
         onclick="window.open('https://arxiv.org/abs/2503.00729')"
         type="button"
       >
-        <div class="pdfIcon"></div>
-        Paper
+        <div class="arxivIcon"></div>
+        arXiv
       </button>
       <button
         class="button"
@@ -197,9 +196,9 @@
       </div>
     </div>
   </div>
-  <div class="forecast contentContainer">
+  <!-- <div class="forecast contentContainer">
     The rest of paper is comming soon...
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts"></script>
@@ -224,11 +223,7 @@ body {
   font-display: swap;
   src: url("@/assets/font/Alibaba-PuHuiTi-Medium.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Alibaba-puhui-light";
-  font-display: swap;
-  src: url("@/assets/font/Alibaba-PuHuiTi-Light.ttf") format("truetype");
-}
+
 @font-face {
   font-family: "Alibaba-puhui-heavy";
   font-display: swap;
@@ -389,6 +384,7 @@ a:hover {
   height: 2vmax;
   justify-content: center;
   align-items: center;
+  font-family: "Alibaba-puhui-regular";
   border-radius: 1.5vmax;
   border: #363636 solid 0px;
   background-color: #363636;
@@ -401,11 +397,12 @@ a:hover {
 .button:hover {
   background-color: #474747;
 }
-.pdfIcon {
+.arxivIcon {
   width: 1.5vmax;
   height: 1.5vmax;
-  background-image: url("@/assets/icon/component/pdf.png");
+  background-image: url("@/assets/icon/component/arxiv.png");
   background-size: contain;
+  background-repeat: no-repeat;
   margin-right: 1vmax;
 }
 .gitHubIcon {
