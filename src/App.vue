@@ -302,11 +302,11 @@ a:hover {
 
 .conf {
   display: flex;
-  height: 2vmax;
+  height: 4vmax;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
-  line-height: 2vmax;
+  line-height: 4vmax;
   font-size: 1.25vmax;
   margin: 3vmax 0 0;
   font-family: "Alibaba-puhui-medium";
@@ -316,8 +316,8 @@ a:hover {
 
 .iros_logo {
   /* width: 100%; */
-  width: 5vmax;
-  height: 2vmax;
+  width: 9vmax;
+  height: 4vmax;
   background-image: url("@/assets/pic/IROS2025_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
