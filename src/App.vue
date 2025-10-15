@@ -14,6 +14,10 @@
       <span class="colorStress">A</span>gent for Enhancing Task Execution in
       Dynamic Environments
     </div>
+    <div class="conf">
+      <div class="iros_logo"></div>
+      Accept by IROS 2025
+    </div>
 
     <div class="arthorNameLine">
       <div class="arthorNameContainer">
@@ -169,17 +173,10 @@
     <div class="contentImg contentImg1">
       <img src="./assets/pic/begining.png" alt="image" />
       <div class="introText">
-        Fig. 1. <span class="bold">Task execution processes of CLEA.</span> (1)
-        Search task: CLEA facilitates adaptive strategy adjustments in partially
-        observable environments. By analyzing visual inputs from robot 2, which
-        remains stationary on the table, CLEA directs robot 1, the mobile unit,
-        to explore alternative locations—such as the interior of the
-        refrigerator—in search of water. (2) Manipulation task: CLEA evaluates
-        the feasibility of each action and dynamically refines its strategy.
-        Upon opening the oven, it determines that placing the apple directly
-        inside is infeasible. Consequently, CLEA adjusts the next step to a more
-        appropriate action: pulling out the grill to create sufficient space,
-        thereby successfully completing the manipulation task.
+        Fig. 1. RoboMemory adopts a brain-inspired architecture that maps neural
+        components to agent modules, enabling long-term planning and interactive
+        learning across diverse environments (real world, Habitat, ALFRED) and
+        robotic hardware.
       </div>
     </div>
   </div>
@@ -301,6 +298,30 @@ a:hover {
 }
 .subTitle {
   font-size: 3vmax;
+}
+
+.conf {
+  display: flex;
+  height: 2vmax;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  line-height: 2vmax;
+  font-size: 1.25vmax;
+  margin: 3vmax 0 0;
+  font-family: "Alibaba-puhui-medium";
+  box-sizing: border-box;
+  color: #363636;
+}
+
+.iros_logo {
+  /* width: 100%; */
+  width: 5vmax;
+  height: 2vmax;
+  background-image: url("@/assets/pic/IROS2025_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1.5vmax;
 }
 
 .colorStress {
